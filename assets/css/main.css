@@ -600,3 +600,9 @@ ul.network-icon {
 .big-icon {
   font-size: 2rem;
 }
+
+/* Prevent FA's line height of 1 causing FA button links to be taller than other button links. */
+.btn-links .fab,
+.btn-links .fas {
+  line-height: inherit !important;
+}
