@@ -68,9 +68,9 @@ body { font-family: Tahoma, Geneva, sans-serif; line-height: 1.5; font-size: 100
 
 h1, h2, h3, h4, h5, h6 { font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: 1.25; margin-top: 1em; margin-bottom: .5em; }
 
-p, dl, ol, ul { font-size: 1rem; margin-top: 0; margin-bottom: 1rem; }
+p, dl, ol { font-size: 1rem; margin-top: 0; margin-bottom: 1rem; }
 
-ol, ul { padding-left: 2rem; }
+ol { padding-left: 2rem; }
 
 pre, code, samp { font-family: "Source Code Pro", Consolas, monospace; font-size: inherit; }
 
@@ -680,8 +680,3 @@ ul.share li:hover i {
   transform: scale(1.4)
 }
 
-/* Prevent FA's line height of 1 causing FA button links to be taller than other button links. */
-.btn-links .fab,
-.btn-links .fas {
-  line-height: inherit !important;
-}
